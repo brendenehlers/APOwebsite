@@ -1,0 +1,10 @@
+{
+    "events": [
+        {"title": "template event", "start": "", "end": "", "borderColor": "this is the description", "color": ""},
+        {"title": "Feeding ducks", "start": "2020-02-22T14:30:00", "end": "2020-02-22T15:30:00", "borderColor": "Come hang out and feed ducks with your brothers.  We will be going to Washington Park; bring your own bread."},
+        {"title": "Pledge Meeting", "start": "2020-02-26T18:00:00", "end": "2020-02-26T19:00:00", "borderColor": "Pledge attendence is mandatory", "color": "red"},
+        {"title": "Chaper Meeting", "start": "2020-02-26T19:00:00", "end": "2020-02-26T20:00:00", "borderColor": "Attendence is mandatory", "color": "yellow"},
+        {"title": "Treasure House of Hope", "start": "2020-02-21T18:00:00", "end": "2020-02-21T21:00:00", "borderColor": "We will be bagging, labeling, and putting ribbons on 500-600 loaves of banana, pumpkin and zucchini breads. Sometimes we will have boxes of bananas that we are smashing or zucchini that we puree.  Please wear clothing you don't mind getting dirty and wear closed-toed shoes. We have hair nets and aprons but if you have a hat you'd like to wear that's fine.  You will be working with nuts", "color": "green"},
+        {"title": "Group Launch and Pizza", "start": "2020-02-24T19:00:00", "end": "2020-02-24T20:00:00", "borderColor": "Come complete the first of the LEADS courses, Launch! The webinar is individual, but we can discuss any questions and help each other out :) Also there will be pizza!!", "color": "pink"}
+    ]
+}

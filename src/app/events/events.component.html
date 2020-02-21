@@ -1,11 +1,37 @@
-<div class='content'>
-    <!-- <calendar-component></calendar-component> -->
-    <button class='btn btn-primary' (click)='toggleVisible()'>Toggle Calendar</button>
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">{{ modalTitle }}</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <div>
+          <p><u>Start:</u> {{ modalStart}}</p>
+          <p><u>End:</u> {{ modalEnd}} </p>
+          <p><u>Description:</u> {{modalDesc}} </p>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close()">Close</button>
+    </div>
+</ng-template>
 
+<div class='calendar-content'>
     <full-calendar #calendar 
         defaultView="dayGridMonth" 
         [plugins]="calendarPlugins"
+        [header]="{
+            left: 'prev,next today',
+            center: 'title',
+            right: 'dayGridMonth, listWeek'
+        }"
         [height]='800'
+        [events]='events'
+        (eventClick)='open(content, $event)'
         deepChangeDetection="true">
     </full-calendar>
 </div>
+
+
+
