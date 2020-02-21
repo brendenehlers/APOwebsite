@@ -1,0 +1,11 @@
+<div class='content'>
+    <!-- <calendar-component></calendar-component> -->
+    <button class='btn btn-primary' (click)='toggleVisible()'>Toggle Calendar</button>
+
+    <full-calendar #calendar 
+        defaultView="dayGridMonth" 
+        [plugins]="calendarPlugins"
+        [height]='800'
+        deepChangeDetection="true">
+    </full-calendar>
+</div>

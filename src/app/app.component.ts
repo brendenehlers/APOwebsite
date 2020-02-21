@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'APO-website';
+  title = 'Aplha Phi Omega';
+  chapter = 'Alpha Eta Iota';
 }
